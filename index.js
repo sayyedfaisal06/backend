@@ -10,8 +10,8 @@ const connectDB = require('./config/db');
 const app = express();
 const corsOptions = {
   origin: [
-    'http://127.0.0.1:3001',
-    'http://localhost:3001',
+    'https://64032e5784f6a4105eb0dfd5--rad-cendol-0ee1dd.netlify.app/',
+    'https://rad-cendol-0ee1dd.netlify.app/',
     'http://127.0.0.1:3000',
     'http://localhost:3000',
   ],
